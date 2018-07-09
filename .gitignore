@@ -1,2 +1,5 @@
+#git ignore files added
 expedia-hackathon-ssh
 expedia-hackathon-ssh.pub
+.idea/workspace.xml
+.idea/
