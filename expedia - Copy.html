@@ -6,8 +6,13 @@
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+  function clickAlert() {
+    alert("The registration is  successful !!!");
+}
+</script>
 </head>
-<body>
+
 <body bgcolor="#f2f2f2">
 <header>
 <img src="expedia.png" width="100%" height="50%">
@@ -19,11 +24,11 @@
 	<form  type=get action="index.html">
 	<div class="col-xs-6" >
     <label for="usr">Given/First Name</label>
-    <input class="form-control" name="firstname"  type="text">
+    <input class="form-control" name="firstname" id="usr" type="text">
   </div>
   <div class="col-xs-6">
     <label for="usr">Surname/Last Name</label>
-    <input class="form-control"  name="lastname"  type="text">
+    <input class="form-control"  name="lastname" id="usr" type="text">
   </div>
     <div class="form-group">
       <label for="usr">Email Address:</label>
@@ -35,7 +40,7 @@
     </div>
 	 <div class="form-group">
       <label for="pwd">Confirm Password:</label>
-      <input type="password" class="form-control"  name="confirmpassword" >
+      <input type="password" class="form-control"  name="confirmpassword" id="pwd">
     </div>
   
     <div class="interests">
@@ -69,7 +74,7 @@
     <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
     &nbsp;I have read and agree to the  <a href="url">Terms of Use </a> and the <a href="url"> Privacy Policy </a>.
 </div>
-<button type="submit" class="btn btn-primary btn-lg" style=" background-color:#ffd24d; color:black;margin-top:5%;margin-bottom:5%">Create Free Account</button>
+<button type="submit" class="btn btn-primary btn-lg" onclick="clickAlert()" style=" background-color:#ffd24d; color:black;margin-top:5%;margin-bottom:5%">Create Free Account</button>
   </div>
  <div class="column" style="background-color:#ffffff; padding-left:5%; padding-top:5%;">
 <img src="fb.png" width="60%" height="90%" id="fb">

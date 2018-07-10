@@ -1,29 +1,9 @@
-#expedia-offers-sports {
+#expedia-offers-cricket {
     float: left;
     border: 1px black solid;
     height: inherit;
     width: 100%;
-    background-image: url('../images/cricket.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-#expedia-offers-islands {
-    float: left;
-    border: 1px black solid;
-    height: inherit;
-    width: 100%;
-    background-image: url('../images/olympics.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-#expedia-offers-holyland {
-    float: left;
-    border: 1px black solid;
-    height: inherit;
-    width: 100%;
-    background-image: url('../images/wimbeldon.jpg');
+    background-image: url('../images/cricketworldcup.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -33,10 +13,23 @@
     border: 1px black solid;
     height: inherit;
     width: 100%;
-    background-image: url('../images/olympics-stadium-panorama.jpg');
+    background-image: url('../images/olympics.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;  
+}
+
+
+
+#expedia-offers-wimbeldon {
+    float: left;
+    border: 1px black solid;
+    height: inherit;
+    width: 100%;
+    background-image: url('../images/wimbeldon.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
 
 #offer-zone {
     padding-left:10px;
@@ -49,5 +42,3 @@
     width: 80%;
 
 }
-
-

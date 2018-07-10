@@ -2,8 +2,6 @@
  * Created by Jacob on 09-07-2018.
  */
 var slideIndex = 0;
-var userInterest = document.getElementsByClassName("interest").value.toString();
-
 
 
 function carousel() {
@@ -15,17 +13,8 @@ function carousel() {
     slideIndex++;
     if (slideIndex > x.length) {slideIndex = 1}
     x[slideIndex-1].style.display = "block";
-    setTimeout(carousel, 2000);
+    setTimeout(carousel, 4000);
 }
-
-function gotoItineraryPage()
-{
-    alert(userInterest);
-    window.location = "expedia - Copy.html";
-
+function gotoItineraryPage(){
+window.location.href = "https://www.expedia.com/China.d37.Destination-Travel-Guides";
 }
-
-var div = document.getElementsByClassName("offer-zone")[0];
-div.addEventListener('click', function (event) {
-        gotoItineraryPage();
-    });

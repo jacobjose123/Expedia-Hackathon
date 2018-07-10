@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="exp.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+  function clickAlert() {
+    alert("The registration is  successful !!!");
+}
+</script>
+</head>
+
+<body bgcolor="#f2f2f2">
+<header>
+<img src="expedia.png" width="100%" height="50%">
+</header>
+<div id="create">
+<div class="row" width="50%" height="50%">
+  <div class="column" width="50%" height="50%">
+    <p>Create an account with your email</p>
+	<form  type=get action="Searchpage.html">
+	<div class="col-xs-6" >
+    <label for="usr">Given/First Name</label>
+    <input class="form-control" name="firstname" id="usr" type="text">
+  </div>
+  <div class="col-xs-6">
+    <label for="usr">Surname/Last Name</label>
+    <input class="form-control"  name="lastname" id="usr" type="text">
+  </div>
+    <div class="form-group">
+      <label for="usr">Email Address:</label>
+      <input type="text" class="form-control"  name="emailId" id="usr">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control"  name="password" id="pwd">
+    </div>
+	 <div class="form-group">
+      <label for="pwd">Confirm Password:</label>
+      <input type="password" class="form-control"  name="confirmpassword" id="pwd">
+    </div>
+  
+    <div class="interests">
+  <h4>Share your interets:</h4>
+  <input class="form-check-input" type="checkbox" name="interest" value="Sports">
+  <label class="form-check-label">
+      Sports &nbsp;
+  </label>
+  <input class="form-check-input" type="checkbox" name="interest" value="Pilgrimage">
+  <label class="form-check-label">
+      Pilgrimage &nbsp;
+  </label>
+    <input class="form-check-input" type="checkbox" name="interest" value="Concert">
+  <label class="form-check-label">
+      Concert &nbsp;
+  </label>
+  </div>
+  <div class="other-details">
+  <h4>Expedia Rewards members get even more!</h4>
+	<p><span class="glyphicon glyphicon-ok"></span> Save money with Member Pricing</p>
+	<p><span class="glyphicon glyphicon-ok"></span> Book free rewards travel with no blackout dates</p>
+	<p><span class="glyphicon glyphicon-ok"></span> Get exclusive member deals and special offers</p>
+    <input class="form-check-input" type="checkbox" style="float:left" value="agree_to_rewards">
+     &nbsp;Join <a href="url">Expedia Rewards </a> opens in a new window today. By joining Expedia Rewards, I accept all <a href="url"> terms & conditions </a>
+  </div><br>
+  <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" id="defaultUnchecked" style="border: 1px solid black;" width="10%">
+    &nbsp;Please send me Expedia.com emails with travel deals, special offers, and other information.
+</div>
+<div class="custom-control custom-checkbox float:right">
+    <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+    &nbsp;I have read and agree to the  <a href="url">Terms of Use </a> and the <a href="url"> Privacy Policy </a>.
+</div>
+<button type="submit" class="btn btn-primary btn-lg" onclick="clickAlert()" style=" background-color:#ffd24d; color:black;margin-top:5%;margin-bottom:5%">Create Free Account</button>
+  </div>
+ <div class="column" style="background-color:#ffffff; padding-left:5%; padding-top:5%;">
+<img src="fb.png" width="60%" height="90%" id="fb">
+
+  </div>
+</div>
+</form>
+</div>
+</body>
+</html>
