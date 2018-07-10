@@ -1,0 +1,9 @@
+; define('exp_datetimeformats', function() {
+
+	'use strict';
+
+window.uitkformatter = window.uitkformatter || {};
+window.uitkformatter.dateTimeSettings =  window.uitkformatter.dateTimeSettings || {};
+window.uitkformatter.dateTimeSettings.en_GB = {"calendarPlaceholder":"dd/mm/yyyy","startDayOfWeek":"1","time":{"format":{"medium":"HH:mm:ss","full":"HH:mm:ss zzzz","short":"HH:mm","long":"HH:mm z"}},"date":{"weekday":{"abbreviated":{"monday":"Mon","tuesday":"Tue","wednesday":"Wed","thursday":"Thu","friday":"Fri","saturday":"Sat","sunday":"Sun"},"narrow":{"monday":"M","tuesday":"T","wednesday":"W","thursday":"T","friday":"F","saturday":"S","sunday":"S"},"wide":{"monday":"Monday","tuesday":"Tuesday","wednesday":"Wednesday","thursday":"Thursday","friday":"Friday","saturday":"Saturday","sunday":"Sunday"}},"calendarPlaceholder":"dd/mm/yyyy","dateSeparators":"/","month":{"abbreviated":{"january":"Jan","february":"Feb","march":"Mar","april":"Apr","may":"May","june":"Jun","august":"Aug","september":"Sep","july":"Jul","october":"Oct","november":"Nov","december":"Dec"},"narrow":{"january":"J","february":"F","march":"M","april":"A","may":"M","june":"J","august":"A","september":"S","july":"J","october":"O","november":"N","december":"D"},"wide":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","august":"August","september":"September","july":"July","october":"October","november":"November","december":"December"}},"format":{"medium":"d MMM","full":"EEE, d MMM","short":"dd/MM/yyyy","long":"d MMM yyyy"}}};
+return window.uitkformatter;
+});
