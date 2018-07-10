@@ -1,9 +1,9 @@
 #expedia-offers-sports {
     float: left;
     border: 1px black solid;
-    height: 120px;
+    height: inherit;
     width: 100%;
-    background-image: url('../images/park-panorama.jpg');
+    background-image: url('../images/cricket.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -11,9 +11,9 @@
 #expedia-offers-islands {
     float: left;
     border: 1px black solid;
-    height: 120px;
+    height: inherit;
     width: 100%;
-    background-image: url('../images/islands-panorama.jpg');
+    background-image: url('../images/olympics.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -21,9 +21,9 @@
 #expedia-offers-holyland {
     float: left;
     border: 1px black solid;
-    height: 120px;
+    height: inherit;
     width: 100%;
-    background-image: url('../images/holy-land-panorama.jpg');
+    background-image: url('../images/wimbeldon.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -31,11 +31,23 @@
 #expedia-offers-olympics {
     float: left;
     border: 1px black solid;
-    height: 120px;
+    height: inherit;
     width: 100%;
     background-image: url('../images/olympics-stadium-panorama.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+
+#offer-zone {
+    padding-left:10px;
+    height: 250px;
+}
+
+#div-expedia-regular-content{
+    /*padding-left:150px;*/
+    height: 55%;
+    width: 80%;
+
 }
 
 
