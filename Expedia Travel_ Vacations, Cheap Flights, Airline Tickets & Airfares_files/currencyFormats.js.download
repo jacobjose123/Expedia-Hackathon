@@ -1,0 +1,10 @@
+; define('exp_currencyformats_INR', function() {
+
+	'use strict';
+
+window.uitkformatter = window.uitkformatter || {};
+window.uitkformatter.currencySettings =  window.uitkformatter.currencySettings || {};
+window.uitkformatter.currencySettings.en_GB = window.uitkformatter.currencySettings.en_GB || {}; 
+window.uitkformatter.currencySettings.en_GB.INR = {"scale":2,"currencyFormat":"Rs#,##0.00","negativeCurrencyFormat":"-Rs#,##0.00","groupingSeparator":",","decimalSeparator":".","currencySymbol":"Rs"};
+return window.uitkformatter;
+});

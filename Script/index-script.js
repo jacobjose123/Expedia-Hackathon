@@ -13,5 +13,8 @@ function carousel() {
     slideIndex++;
     if (slideIndex > x.length) {slideIndex = 1}
     x[slideIndex-1].style.display = "block";
-    setTimeout(carousel, 2000);
+    setTimeout(carousel, 4000);
+}
+function gotoItineraryPage(){
+window.location.href = "https://www.expedia.com/China.d37.Destination-Travel-Guides";
 }
